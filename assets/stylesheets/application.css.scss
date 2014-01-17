@@ -1,0 +1,87 @@
+@import "pages/*";
+@import "variables";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+body {
+	font-size: 16px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	color: $textColorDark;
+}
+
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:hover {
+		color: $linkColorHighlighted;
+	}
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	margin-top: 3em;
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+strong, h1, h2, h3 {
+	font-weight: 400;
+}
+
+ul, ol, dl, p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+code {
+	background-color: darken(white, 3%);
+	border: 1px solid darken(white, 9%);
+	border-radius: 1em;
+	padding: 0.5em;
+	font-size: 0.9em;
+	white-space: nowrap;
+}
+
+pre {
+	overflow: scroll;
+	background-color: darken(white, 3%);
+	border: 1px solid darken(white, 9%);
+	padding: 1em;
+	border-radius: 1em;
+	
+	
+	code {
+		border: none;
+		padding: 0;
+		white-space: pre;
+	}
+}
+
+code {
+	font-family: monospace;
+}
+
+.container {
+    $width: 800px;
+    $padding: 20px;
+    
+    width: $width;
+    margin: 4em auto;
+    box-sizing: border-box;
+    
+    @media screen and (max-width: $width + $padding * 2) {
+        width: 100%;
+        padding: 0 $padding;
+        margin: 3em 0;
+    }
+}
