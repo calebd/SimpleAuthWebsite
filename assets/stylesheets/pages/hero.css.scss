@@ -1,29 +1,35 @@
 @import "variables";
+@import "bourbon";
 
 #hero {
 	text-align: center;
-	background-color: $accentColor;
 	color: white;
-	padding: 5em;
+	padding: 2em 0 4em 0;
 	font-size: 1.25em;
+	@include background(linear-gradient($accentColor, #FF2A68));
 	
 	.container {
 		margin: 0 auto;
 	}
 	
 	a {
+		color: white;
 		display: inline-block;
 		padding: 1em;
-		background-color: white;
-		
+		border: 1px solid white;
+		border-radius: 1em;
+		&:hover {
+			background-color: white;
+			color: $accentColor;
+		}
 	}
 	
 	h1 {
 		margin: 0;
-		font-size: 4em;
+		font-size: 5em;
 	}
 	
 	p {
-		margin: 2em 0 3em 0 ;
+		margin: -0.5em 0 1.75em 0;
 	}
 }
