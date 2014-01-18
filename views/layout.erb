@@ -3,14 +3,14 @@
 	<head>
 		<title><%= yield_content :title %></title>
 		<link rel="stylesheet" type="text/css" href="/assets/application.css">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	    <%= erb :gauges %>
 		<%= erb :typekit %>
 	</head>
 	<body>
 		<%= yield %>
     <div id="copyright" class="container">
-      <p>SimpleAuth was created by <a href="http://calebd.me">Caleb Davenport</a> and is released under the <a href="https://github.com/calebd/SimpleAuth/blob/master/LICENSE">MIT License</a>.</p>
+      <p>SimpleAuth is maintained by <a href="http://calebd.me">Caleb Davenport</a> and is released under the <a href="https://github.com/calebd/SimpleAuth/blob/master/LICENSE">MIT License</a>.</p>
     </div>
 	</body>
 </html>

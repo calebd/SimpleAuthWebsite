@@ -2,10 +2,29 @@
 
 <%= erb :hero %>
 
-<div class="container">
-	<%= markdown :about %>
+<div id="about" class="container">
+	<h2>About</h2>
+	<p>SimpleAuth does all the hard work of social account authentication on iOS. It has a simple public API backed by a set of "providers" that communicate with various social services.</p>
+
+	<p>Installing SimpleAuth is easy. Just add the provider you want to your `Podfile`, like this: <code>pod 'SimpleAuth/Twitter'</code></p>
+
+	<p>You can read more about the framework in the <a href="https://github.com/calebd/SimpleAuth/blob/master/Readme.markdown">readme</a>.</p>
 </div>
 
-<!-- <div class="container">
-	<%= markdown :readme %>
-</div> -->
+<div id="providers" class="container">
+	<h2>Providers</h2>
+	<p>SimpleAuth features providers for these popular services</p>
+	<ul>
+		<li><i class="fa fa-twitter"></i></li>
+		<li><i class="fa fa-facebook"></i></li>
+		<li><i class="fa fa-instagram"></i></li>
+		<li><i class="fa fa-tumblr"></i></li>
+	</ul>
+	<!-- <p>with more coming soon</p>
+	<ul>
+		<li><i class="fa fa-dropbox"></i></li>
+		<li><i class="fa fa-github"></i></li>
+		<li><i class="fa fa-foursquare"></i></li>
+		<li><i class="fa fa-adn"></i></li>
+	</ul> -->
+</div>

@@ -1,0 +1,33 @@
+@import "bourbon";
+@import "variables";
+
+#providers {
+	ul {
+		list-style-type: none;
+		font-size: 3em;
+		text-align: center;
+		margin: 0 0 0.33em;
+		@include clearfix;
+		
+		li {
+			float: left;
+			width: 25%;
+		}
+	}
+	
+//	.fa-twitter {
+//		color: #00acee;
+//	}
+//	
+//	.fa-facebook {
+//		color: #3b5998;
+//	}
+//	
+//	.fa-instagram {
+//		color: #3f729b;
+//	}
+//	
+//	.fa-tumblr {
+//		color: #34526f;
+//	}
+}
