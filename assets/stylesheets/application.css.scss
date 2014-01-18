@@ -1,3 +1,4 @@
+@import "reset";
 @import "pages/*";
 @import "variables";
 
@@ -23,7 +24,7 @@ h1 {
 }
 
 h2 {
-	margin-top: 3em;
+//	margin-top: 3em;
 	font-size: 2em;
 }
 
@@ -35,16 +36,11 @@ strong, h1, h2, h3 {
 	font-weight: bold;
 }
 
-ul, ol, dl, p {
-    margin: 1em 0;
-    padding: 0;
+p, pre {
+	margin: 0 0 1.5em;
 }
 
 code {
-	background-color: darken(white, 3%);
-	border: 1px solid darken(white, 9%);
-	border-radius: 1em;
-	padding: 0.5em;
 	font-size: 0.9em;
 	white-space: nowrap;
 }
@@ -52,10 +48,10 @@ code {
 pre {
 	overflow: scroll;
 	background-color: darken(white, 3%);
-	border: 1px solid darken(white, 9%);
-	padding: 1em;
-	border-radius: 1em;
-	
+//	border: 1px solid darken(white, 9%);
+	padding: 0.5em 1em;
+//	border-radius: 1em;
+	line-height: 1.0;
 	
 	code {
 		border: none;
@@ -65,11 +61,11 @@ pre {
 }
 
 code {
-	font-family: monospace;
+	font-family: 'Menlo', 'Monaco', 'Courrier', monospace;
 }
 
 .container {
-    $width: 800px;
+    $width: 600px;
     $padding: 20px;
     
     width: $width;
