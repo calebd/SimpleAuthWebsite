@@ -18,9 +18,11 @@
 		padding: 1em;
 		border: 1px solid white;
 		border-radius: 1em;
+		@include transition (all 0.1s ease-in-out);
 		&:hover {
 			background-color: white;
 			color: $accentColor;
+			@include transition (all 0.1s ease-in-out);
 		}
 	}
 	
