@@ -50,9 +50,10 @@ code {
 }
 
 .container {
-    $width: 600px;
+    $width: 640px;
     $padding: 20px;
     
     width: $width;
     margin: 4em auto;
+    box-sizing: border-box;
 }
