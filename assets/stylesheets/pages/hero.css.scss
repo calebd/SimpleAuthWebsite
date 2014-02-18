@@ -5,13 +5,13 @@
 	text-align: center;
 	color: white;
 	padding: 2em 0 4em 0;
-	font-size: 1.25em;
+	font-size: 1.1em;
 	@include background(linear-gradient(#FF5E3A, $accentColor));
-	
+
 	.container {
 		margin: 0 auto;
 	}
-	
+
 	a {
 		color: white;
 		display: inline-block;
@@ -25,13 +25,13 @@
 			@include transition (all 0.1s ease-in-out);
 		}
 	}
-	
+
 	h1 {
 		margin: 0;
 		font-size: 5em;
 	}
-	
+
 	p {
-		margin: -0.5em 0 1.75em 0;
+		margin: -0.5em 0 1.9em 0;
 	}
 }
