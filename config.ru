@@ -11,6 +11,5 @@ map '/assets' do
   run sprockets
 end
 
-require 'sinatra'
 require './application'
 run Sinatra::Application
