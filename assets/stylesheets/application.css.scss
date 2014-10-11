@@ -45,14 +45,26 @@ p, ul, ol {
 
 code {
 	font-size: 0.9em;
-	white-space: nowrap;
 	font-family: 'Menlo', 'Monaco', 'Courrier', monospace;
+}
+
+pre {
+	overflow: scroll;
+}
+
+mark {
+	background-color: #FDFFB6;
+	padding: 2px;
+}
+
+ul, li {
+	list-style-position: inside;
 }
 
 .container {
     $width: 640px;
     $padding: 20px;
-    
+
     width: $width;
     margin: 4em auto;
     box-sizing: border-box;

@@ -8,10 +8,14 @@
 		text-align: center;
 		margin: 0 0 0.33em;
 		@include clearfix;
-		
+
 		li {
 			float: left;
 			width: 33%;
 		}
+	}
+
+	a {
+		color: $textColorDark;
 	}
 }
